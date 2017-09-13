@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="85"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:weightSum="10" >
+
+        <ImageView
+            android:id="@+id/smallImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/ic_launcher"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/timer"
+            android:textSize="40sp" />
+        
+        <Button 
+            android:id="@+id/start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:text="@string/start"/>
+        
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="15"
+        android:baselineAligned="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="false"
+        android:padding="5dp"
+        android:weightSum="4" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/b1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+            
+            <ImageButton
+                android:id="@+id/b2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+            
+            <ImageButton
+                android:id="@+id/b3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/b4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/b5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/b6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/b7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/b8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/b9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/b10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/b11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/b12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
